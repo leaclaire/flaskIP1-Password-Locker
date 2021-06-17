@@ -85,7 +85,7 @@ def main():
             username = input()
 
             passResponse = input(
-                'Do you want a generated password? \n  Respond with \'y\' for yes or \'n\' for no: ').lower()
+                'Do you want to continue? \n  Respond with \'y\' for yes or \'n\' for no: ').lower()
 
             if passResponse == 'y':
                 createdPass = passwordGenerator(getPassLength())
@@ -105,7 +105,7 @@ def main():
                 confirm_password = input()
 
                 while confirm_password != password:
-                    print(" Oppss!!! Password did not match")
+                    print("Password did not match!!!!!try again")
                     print("Enter the right password ....")
                     password = input()
                     print("Confirm your password ....")
