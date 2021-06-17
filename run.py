@@ -201,7 +201,7 @@ def main():
 
                     elif shortCode == 'lc':
                         if display_credentials():
-                            print('Here is a list of all your Accounts with there credentials.')
+                            print('Here is a list of all your Accounts with their data.')
                             print('\n')
                             for credential in display_credentials():
                                 print(
@@ -217,7 +217,7 @@ def main():
                                         print("Enter the Username of the account you want to delete")
                                         username = input()
                                         if  check_existing_credentials(username):
-                                            print("Please wait ...")
+                                            print("loading ...")
                                             username = find_credentials(username)
                                             delete_credentials(credential)
                                             print(
