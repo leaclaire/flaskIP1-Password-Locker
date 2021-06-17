@@ -5,19 +5,19 @@ from generate import *
 
        #Account
 
-# def create_account(account_name, user_name, password):
-#     '''
-#     function to create a new account
-#     '''
-#     new_account = Account(account_name, user_name, password)
-#     return new_account
+def create_account(account_name, user_name, password):
+    '''
+    function to create a new account
+    '''
+    new_account = Account(account_name, user_name, password)
+    return new_account
 
 
-# def save_accounts(account):
-#     '''
-#     function to save account
-#     '''
-#     account.save_accounts()
+def save_accounts(account):
+    '''
+    function to save account
+    '''
+    account.save_accounts()
 
 
 def check_account_exists(user_name, password):
