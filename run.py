@@ -210,7 +210,7 @@ def main():
                             print('\n')
                         else:
                             print('\n')
-                            print("Sorry, you don't seem to have any credentials saved yet")
+                            print("Sorry, you don't seem to have any data saved ")
                             print('\n')
 
                     elif shortCode == "dl":
