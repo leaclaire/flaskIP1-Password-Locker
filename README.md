@@ -5,8 +5,8 @@
 leah jepkorir
 
 ## Descriptions
-
-Password locker is a terminal run python application that allows users to manage their accounts such as usernames and passwords.
+<!-- 
+Password locker is a terminal run python application that allows users to manage their accounts such as usernames and passwords. -->
 
 
 

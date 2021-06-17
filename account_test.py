@@ -1,26 +1,26 @@
-# import unittest
-# from account import Account
+import unittest
+from account import Account
 
 
-# class TestAccount(unittest.TestCase):
+class TestAccount(unittest.TestCase):
 
-#       """
-#       Test class that defines test cases for the account class behaviours.
+      """
+      Test class that defines test cases for the account class behaviours.
 
-#         Args:
-#         unittest.TestCase: TestCase class that helps in creating test cases
-#       """
+        Args:
+        unittest.TestCase: TestCase class that helps in creating test cases
+      """
 
-#       def setUp(self):
-#         """
-#         setUp method to run before each test case.
-#         """
-#         self.new_account = Account ("leah", "jepkorir", "leaclaire003")
+      def setUp(self):
+        """
+        setUp method to run before each test case.
+        """
+        self.new_account = Account ("leah", "jepkorir", "leaclaire003")
 
-#       def test_init(self):
-#         """
-#         test_init test cases to test if the object is initialized properly.
-#         """
+      def test_init(self):
+        """
+        test_init test cases to test if the object is initialized properly.
+        """
 
         self.assertEqual(self.new_account.account_name,"leah")
         self.assertEqual(self.new_account.user_name,"jepkorir")
