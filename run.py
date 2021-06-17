@@ -114,7 +114,7 @@ def main():
                 else:
                     save_accounts(create_account(username,password,password))
                     print(
-                        f'Congratulations 🎉, Succefully created a new a count for: {username} using this password: {password}')
+                        f'Congratulations 🎉you have created a new a count for: {username} using this password: {password}')
                     print("Proceed to login")
                     print("username")
                     entered_username = input()
